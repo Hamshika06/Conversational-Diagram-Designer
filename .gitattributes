@@ -1,0 +1,12 @@
+# Normalize all text files to LF in the repository. The shell scripts and
+# Dockerfile run inside a Linux container, where CRLF line endings break the
+# shebang ("bad interpreter: /bin/bash^M").
+* text=auto eol=lf
+
+*.sh      text eol=lf
+Dockerfile text eol=lf
+*.py      text eol=lf
+*.ipynb   text eol=lf
+
+*.png binary
+*.svg text eol=lf
