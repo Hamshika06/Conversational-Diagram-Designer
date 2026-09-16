@@ -7,6 +7,16 @@ using natural language. CDD generates diagram code in three formats
 uses a multimodal vision-feedback loop (3-iteration cap) to validate
 and self-correct the rendered output.
 
+## Web app in action
+
+<img width="1916" height="867" alt="image" src="https://github.com/user-attachments/assets/ce18b974-c565-44ae-ba41-f71dc621294a" />
+
+The screenshot shows how CDD works from start to finish. The user enters a request for a **"Flowchart for user authentication"** in the chat panel on the left. CDD then creates the diagram and provides a short description and suggestions to improve it.
+
+On the right, the generated flowchart is displayed. It shows the main login process, including entering a username and password, checking the credentials, granting access when they are correct, and showing an error or allowing the user to retry when they are incorrect.
+
+The **Source (Graphviz)** section below the diagram shows the code used to create the flowchart. The **Revisions** section allows users to view earlier versions and see how the diagram changed during the refinement process.
+
 ## What's in this project
 
 ```
@@ -130,3 +140,4 @@ comparing metrics. Results are saved to JSON.
 ## License
 
 MIT — see `LICENSE`.
+
