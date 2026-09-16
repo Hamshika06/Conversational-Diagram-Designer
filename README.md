@@ -1,6 +1,5 @@
 # Conversational Diagram Designer (CDD)
 
-DATA 605 - Big Data Systems | Spring 2026 | Prof. GP Saggese
 
 A browser-based diagramming tool where users create and refine diagrams
 using natural language. CDD generates diagram code in three formats
